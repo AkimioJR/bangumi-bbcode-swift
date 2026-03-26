@@ -590,15 +590,15 @@ var textRenders: [BBType: TextRender] {
       let font: Font
       switch size {
       case 1:
-        font = .footnote
+        font = .caption
       case 2:
-        font = .body
+        font = .footnote
       case 3:
-        font = .subheadline
+        font = .body
       case 4:
-        font = .headline
+        font = .subheadline
       case 5:
-        font = .title3
+        font = .headline
       case 6:
         font = .title
       case 7:
